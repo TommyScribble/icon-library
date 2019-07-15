@@ -1,7 +1,7 @@
 import React from 'react';
 
 const AccountDark = props => {
-	const { fill, width } = props;
+	const { fill, width, focussable, ariaHidden, svgClass } = props;
 
 	const style = {
 		width: `${width}`,
@@ -13,6 +13,9 @@ const AccountDark = props => {
 				xmlns="http://www.w3.org/2000/svg"
 				xmlnsXlink="http://www.w3.org/1999/xlink"
 				viewBox="0 0 141.73 141.73"
+				className={svgClass}
+				focussable={focussable}
+				ariaHidden={ariaHidden}
 			>
 				<path
 					d="M60.48 74h3.63v3.63h-3.63zm10.9 0H75v3.63h-3.63z"
