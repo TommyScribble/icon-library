@@ -1,5 +1,5 @@
-# icon-library
-A library of icons for InTouch apps
+# React Icon Library
+A library of icons that can be used at react components
 
 ## Table of Contents
 
@@ -9,7 +9,7 @@ A library of icons for InTouch apps
 ## Installation
 Download the repo to your machine
 ```shell
-git clone https://github.com/in-touch-dev/icon-library.git
+git clone git@github.com:TommyScribble/icon-library.git
 ```
 
 ## Usage  
