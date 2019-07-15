@@ -3,6 +3,8 @@ import React from 'react';
 const AccountDark = props => {
 	const { fill, width, focussable, ariaHidden, svgClass } = props;
 
+	console.log('PROPS', props);
+
 	const style = {
 		width: `${width}`,
 	};
@@ -15,7 +17,7 @@ const AccountDark = props => {
 				viewBox="0 0 141.73 141.73"
 				className={svgClass}
 				focussable={focussable}
-				ariaHidden={ariaHidden}
+				aria-hidden={ariaHidden}
 			>
 				<path
 					d="M60.48 74h3.63v3.63h-3.63zm10.9 0H75v3.63h-3.63z"

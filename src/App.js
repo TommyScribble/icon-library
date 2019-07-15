@@ -5,11 +5,11 @@ const App = () => {
 	return (
 		<Icon
 			iconName={'accountDark'}
-			fill={'green'}
+			fill={'blue'}
 			width={'150px'}
-			ariaHidden={iconAriaHidden}
-			focussable={iconFocussable}
-			svgClass={svgClass}
+			ariaHidden={true}
+			focussable={'false'}
+			svgClass={'test-class'}
 		/>
 	);
 };
