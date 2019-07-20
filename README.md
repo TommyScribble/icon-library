@@ -1,18 +1,26 @@
 # React Icon Library
-A library of icons that can be used at react components
+--- This project is not currently ready for use ---
+A library of icons that can be used as react components
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Contributing](#contributing)
 
 ## Installation
+--- This will be added to the NPM registery once complete ---
+
+## Usage
+This project is still being developed and is not ready for use yet. When it is I will update the readme and also add a list of icons.
+
+## Contributing  
+
 Download the repo to your machine
 ```shell
 git clone git@github.com:TommyScribble/icon-library.git
 ```
 
-## Usage  
 In the project directory, you can run:
 ```shell
 yarn start
