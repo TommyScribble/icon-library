@@ -4,7 +4,7 @@ import Icon from './components/IconLibrary';
 const IconPreview = () => {
 	return (
 		<div className="columns">
-			<div className="column">
+			<div className="column has-text-centered">
 				<Icon
 					iconName={'AnalyticsGraphBar1'}
 					// fill={'red'}
