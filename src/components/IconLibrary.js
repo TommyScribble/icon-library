@@ -1,10 +1,10 @@
 import React from 'react';
-import BabyTrolley1 from '/icons/BabyTrolley1';
+import AnalyticsGraphBar1 from '../components/icons/AnalyticsGraphBar1';
 
 const IconLibrary = props => {
 	switch (props.iconName) {
-		case 'BabyTrolley1':
-			return <BabyTrolley1 {...props} />;
+		case 'AnalyticsGraphBar1':
+			return <AnalyticsGraphBar1 {...props} />;
 		default:
 			return <div>There is something wrong with the iconName prop</div>;
 	}
