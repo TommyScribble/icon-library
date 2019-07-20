@@ -1,6 +1,6 @@
 # React Icon Library
+A library of icons that can be used as react components  
 --- This project is not currently ready for use ---
-A library of icons that can be used as react components
 
 ## Table of Contents
 
