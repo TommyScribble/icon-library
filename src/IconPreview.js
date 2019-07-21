@@ -15,6 +15,17 @@ const IconPreview = () => {
 				/>
 				<p>AnalyticsGraphBar1</p>
 			</div>
+			<div className="column has-text-centered">
+				<Icon
+					iconName={'CaretDown'}
+					// fill={'red'}
+					width={'50px'}
+					ariaHidden={true}
+					focussable={'false'}
+					svgClass={'test-class'}
+				/>
+				<p>CaretDown</p>
+			</div>
 		</div>
 	);
 };
