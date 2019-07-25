@@ -5,25 +5,11 @@ const IconPreview = () => {
 	return (
 		<div className="columns">
 			<div className="column has-text-centered">
-				<Icon
-					iconName={'AnalyticsGraphBar1'}
-					// fill={'red'}
-					width={'50px'}
-					ariaHidden={true}
-					focussable={'false'}
-					svgClass={'test-class'}
-				/>
+				<Icon iconName={'AnalyticsGraphBar1'} />
 				<p>AnalyticsGraphBar1</p>
 			</div>
 			<div className="column has-text-centered">
-				<Icon
-					iconName={'CaretDown'}
-					// fill={'red'}
-					width={'50px'}
-					ariaHidden={true}
-					focussable={'false'}
-					svgClass={'test-class'}
-				/>
+				<Icon iconName={'CaretDown'} />
 				<p>CaretDown</p>
 			</div>
 		</div>

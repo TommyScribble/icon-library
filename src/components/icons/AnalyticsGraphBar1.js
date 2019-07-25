@@ -1,22 +1,18 @@
 import React from 'react';
-import propTypes from 'prop-types';
 
-const AnalyticsGraphBar1 = props => {
-	const { iconName, fill, width, focussable, ariaHidden, svgClass } = props;
+const AnalyticsGraphBar1 = () => {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 24 24"
-			className={svgClass}
-			width={width}
-			focussable={focussable}
-			aria-hidden={ariaHidden}
-			aria-labelledby={iconName}
+			focussable="false"
+			aria-hidden="true"
+			aria-labelledby="AnalyticsGraphBar1"
 		>
 			<defs>
 				<style
 					dangerouslySetInnerHTML={{
-						__html: `.a{fill:none;stroke:${fill};stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;}`,
+						__html: `.a{fill:none;stroke:"#4d4d4d";stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;}`,
 					}}
 				/>
 			</defs>
@@ -43,22 +39,6 @@ const AnalyticsGraphBar1 = props => {
 			<circle className="a" cx="2.249" cy="10.501" r="1.5" />
 		</svg>
 	);
-};
-
-AnalyticsGraphBar1.defaultProps = {
-	fill: '#4d4d4d',
-	width: '24px',
-	focussable: 'false',
-	ariaHidden: true,
-};
-
-AnalyticsGraphBar1.propTypes = {
-	iconName: propTypes.string.isRequired,
-	fill: propTypes.string,
-	width: propTypes.string,
-	focussable: propTypes.string,
-	ariaHidden: propTypes.bool,
-	svgClass: propTypes.string,
 };
 
 export default AnalyticsGraphBar1;
