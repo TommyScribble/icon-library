@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from './components/IconLibrary';
+import Icon from './components/ScribbleIcons';
 
 const IconPreview = () => {
 	return (

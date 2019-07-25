@@ -6,7 +6,7 @@ const App = () => {
 	return (
 		<section className="section">
 			<div className="container">
-				<h1 className="title">Icon Library</h1>
+				<h1 className="title">Scribbles Icon Library</h1>
 				<h2 className="subtitle">
 					Use the icon names below for the iconName prop
 				</h2>
