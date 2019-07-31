@@ -8,7 +8,7 @@ const CaretDown2 = () => {
 			height="24"
 			fill="none"
 			stroke="#4d4d4d"
-			stroke-width="3"
+			strokeWidth="3"
 			aria-hidden={true}
 			focusable={false}
 		>

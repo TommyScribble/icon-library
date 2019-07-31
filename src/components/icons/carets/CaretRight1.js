@@ -8,7 +8,7 @@ const CaretRight1 = () => {
 			height="24"
 			fill="none"
 			stroke="#4d4d4d"
-			stroke-width="2"
+			strokeWidth="2"
 			aria-hidden={true}
 			focusable={false}
 		>
