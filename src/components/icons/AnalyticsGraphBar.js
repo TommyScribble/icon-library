@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function AnalyticsGraphBar(props) {
+const AnalyticsGraphBar = () => {
 	return (
 		<svg
 			id="Bold"
@@ -8,7 +8,8 @@ export default function AnalyticsGraphBar(props) {
 			viewBox="0 0 24 24"
 			width={24}
 			height={24}
-			{...props}
+			aria-hidden={true}
+			focusable={false}
 		>
 			<title>analytics-graph-bar</title>
 			<path d="M4.75,20.75A.25.25,0,0,0,5,20.5v-2a1,1,0,0,0-1-1H2a1,1,0,0,0-1,1v2a.25.25,0,0,0,.25.25Z" />
@@ -19,4 +20,6 @@ export default function AnalyticsGraphBar(props) {
 			<path d="M23,22H1a1.016,1.016,0,0,0-1,1,1,1,0,0,0,1,1H23a1,1,0,0,0,1-1A1.015,1.015,0,0,0,23,22Z" />
 		</svg>
 	);
-}
+};
+
+export default AnalyticsGraphBar;

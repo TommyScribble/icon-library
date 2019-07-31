@@ -1,4 +1,5 @@
 import React from 'react';
+import AnalyticsGraphBar from '../components/icons/AnalyticsGraphBar';
 import CaretDown from '../components/icons/carets/CaretDown';
 import CaretDown1 from '../components/icons/carets/CaretDown1';
 import CaretDown2 from '../components/icons/carets/CaretDown2';
@@ -13,6 +14,7 @@ import CaretUp1 from '../components/icons/carets/CaretUp1';
 import CaretUp2 from '../components/icons/carets/CaretUp2';
 
 const IconObj = {
+	AnalyticsGraphBar: <AnalyticsGraphBar />,
 	CaretDown: <CaretDown />,
 	CaretDown1: <CaretDown1 />,
 	CaretDown2: <CaretDown2 />,

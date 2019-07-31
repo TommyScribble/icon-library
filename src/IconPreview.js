@@ -4,6 +4,7 @@ import Icon from './components/ScribbleIcons';
 const IconPreview = () => {
 	return (
 		<React.Fragment>
+			<h3 className="title">Carets</h3>
 			<div className="columns">
 				<div className="column has-text-centered">
 					<Icon iconName={'CaretDown'} />
@@ -55,6 +56,32 @@ const IconPreview = () => {
 					<Icon iconName={'CaretUp2'} />
 					<p>CaretUp2</p>
 				</div>
+			</div>
+			<div className="columns">
+				<div className="column has-text-centered">
+					<Icon iconName={'AnalyticsGraphBar'} />
+					<p>AnalyticsGraphBar</p>
+				</div>
+				{/* <div className="column has-text-centered">
+					<Icon iconName={'CaretRight1'} />
+					<p>CaretRight1</p>
+				</div>
+				<div className="column has-text-centered">
+					<Icon iconName={'CaretRight2'} />
+					<p>CaretRight2</p>
+				</div>
+				<div className="column has-text-centered">
+					<Icon iconName={'CaretUp'} />
+					<p>CaretUp</p>
+				</div>
+				<div className="column has-text-centered">
+					<Icon iconName={'CaretUp1'} />
+					<p>CaretUp1</p>
+				</div>
+				<div className="column has-text-centered">
+					<Icon iconName={'CaretUp2'} />
+					<p>CaretUp2</p>
+				</div> */}
 			</div>
 		</React.Fragment>
 	);

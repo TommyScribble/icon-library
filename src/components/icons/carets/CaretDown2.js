@@ -9,7 +9,10 @@ const CaretDown2 = () => {
 			fill="none"
 			stroke="#4d4d4d"
 			stroke-width="3"
+			aria-hidden={true}
+			focusable={false}
 		>
+			<title>caret</title>
 			<path d="M1.06 4.94l12 12" />
 			<path d="M10.94 16.94l12-12" />
 		</svg>
