@@ -3,7 +3,7 @@ import React from 'react';
 const AnalyticsGraphBar = () => {
 	return (
 		<svg
-			id="Bold"
+			id="Light"
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 24 24"
 			width={24}
@@ -11,13 +11,39 @@ const AnalyticsGraphBar = () => {
 			aria-hidden={true}
 			focusable={false}
 		>
+			<defs>
+				<style
+					dangerouslySetInnerHTML={{
+						__html:
+							'.cls-1{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}',
+					}}
+				/>
+			</defs>
 			<title>analytics-graph-bar</title>
-			<path d="M4.75,20.75A.25.25,0,0,0,5,20.5v-2a1,1,0,0,0-1-1H2a1,1,0,0,0-1,1v2a.25.25,0,0,0,.25.25Z" />
-			<path d="M10.75,20.75A.25.25,0,0,0,11,20.5v-7a1,1,0,0,0-1-1H8a1,1,0,0,0-1,1v7a.25.25,0,0,0,.25.25Z" />
-			<path d="M16.75,20.75A.25.25,0,0,0,17,20.5v-5a1,1,0,0,0-1-1H14a1,1,0,0,0-1,1v5a.25.25,0,0,0,.25.25Z" />
-			<path d="M22.75,20.75A.25.25,0,0,0,23,20.5V8.5a1,1,0,0,0-1-1H20a1,1,0,0,0-1,1v12a.25.25,0,0,0,.25.25Z" />
-			<path d="M3.5,13.5a2,2,0,0,0,2-2,1.981,1.981,0,0,0-.1-.6l3.167-2.64A1.955,1.955,0,0,0,11.011,7.8l2.5.834A2,2,0,0,0,17.5,8.5a1.964,1.964,0,0,0-.231-.912l3.287-3.835A1.994,1.994,0,1,0,19.5,2a1.962,1.962,0,0,0,.093.571L16.13,6.612a1.932,1.932,0,0,0-2.141.593l-2.5-.833A1.995,1.995,0,1,0,7.6,7.1L4.436,9.744A1.975,1.975,0,0,0,3.5,9.5a2,2,0,0,0,0,4Z" />
-			<path d="M23,22H1a1.016,1.016,0,0,0-1,1,1,1,0,0,0,1,1H23a1,1,0,0,0,1-1A1.015,1.015,0,0,0,23,22Z" />
+			<line className="cls-1" x1="0.5" y1="23.5" x2="23.5" y2="23.5" />
+			<path
+				className="cls-1"
+				d="M4.5,19a.5.5,0,0,0-.5-.5H2a.5.5,0,0,0-.5.5v4.5h3Z"
+			/>
+			<path
+				className="cls-1"
+				d="M10.5,14a.5.5,0,0,0-.5-.5H8a.5.5,0,0,0-.5.5v9.5h3Z"
+			/>
+			<path
+				className="cls-1"
+				d="M16.5,16a.5.5,0,0,0-.5-.5H14a.5.5,0,0,0-.5.5v7.5h3Z"
+			/>
+			<path
+				className="cls-1"
+				d="M22.5,9a.5.5,0,0,0-.5-.5H20a.5.5,0,0,0-.5.5V23.5h3Z"
+			/>
+			<circle className="cls-1" cx={3} cy="11.5" r="1.5" />
+			<circle className="cls-1" cx={9} cy="6.5" r="1.5" />
+			<circle className="cls-1" cx={15} cy="8.5" r="1.5" />
+			<circle className="cls-1" cx={21} cy={2} r="1.5" />
+			<line className="cls-1" x1="4.261" y1="10.45" x2="7.848" y2="7.46" />
+			<line className="cls-1" x1="10.424" y1="6.974" x2="13.577" y2="8.025" />
+			<line className="cls-1" x1="19.8" y1="2.9" x2="16.041" y2="7.285" />
 		</svg>
 	);
 };

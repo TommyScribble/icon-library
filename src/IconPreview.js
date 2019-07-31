@@ -62,6 +62,14 @@ const IconPreview = () => {
 					<Icon iconName={'AnalyticsGraphBar'} />
 					<p>AnalyticsGraphBar</p>
 				</div>
+				<div className="column has-text-centered">
+					<Icon iconName={'AnalyticsGraphBar1'} />
+					<p>AnalyticsGraphBar1</p>
+				</div>
+				<div className="column has-text-centered">
+					<Icon iconName={'AnalyticsGraphBar2'} />
+					<p>AnalyticsGraphBar2</p>
+				</div>
 				{/* <div className="column has-text-centered">
 					<Icon iconName={'CaretRight1'} />
 					<p>CaretRight1</p>

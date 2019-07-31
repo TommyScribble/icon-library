@@ -5,10 +5,14 @@ const AnalyticsGraphBar1 = () => {
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 24 24"
+			width={24}
+			height={24}
 			focussable="false"
 			aria-hidden="true"
 			aria-labelledby="AnalyticsGraphBar1"
+			stroke="#4d4d4d"
 		>
+			<title>analytics-graph-bar</title>
 			<defs>
 				<style
 					dangerouslySetInnerHTML={{
@@ -16,7 +20,6 @@ const AnalyticsGraphBar1 = () => {
 					}}
 				/>
 			</defs>
-			<title>analytics-graph-bar</title>
 			<line className="a" x1="0.749" y1="23.25" x2="22.499" y2="23.25" />
 			<path
 				className="a"
