@@ -9,6 +9,8 @@ const AnalyticsGraphBar2 = () => {
 			height={24}
 			aria-hidden={true}
 			focusable={false}
+			fill="#4d4d4d"
+			stroke="none"
 		>
 			<title>analytics-graph-bar</title>
 			<path d="M4.75,20.75A.25.25,0,0,0,5,20.5v-2a1,1,0,0,0-1-1H2a1,1,0,0,0-1,1v2a.25.25,0,0,0,.25.25Z" />

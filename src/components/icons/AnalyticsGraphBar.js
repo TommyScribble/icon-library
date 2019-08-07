@@ -10,12 +10,14 @@ const AnalyticsGraphBar = () => {
 			height={24}
 			aria-hidden={true}
 			focusable={false}
+			fill="none"
+			stroke="#4d4d4d"
 		>
 			<defs>
 				<style
 					dangerouslySetInnerHTML={{
 						__html:
-							'.cls-1{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}',
+							'.cls-1{fill:none;stroke:#4d4d4d;stroke-linecap:round;stroke-linejoin:round;}',
 					}}
 				/>
 			</defs>

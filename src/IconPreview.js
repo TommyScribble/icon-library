@@ -57,6 +57,7 @@ const IconPreview = () => {
 					<p>CaretUp2</p>
 				</div>
 			</div>
+			<h3 className="title">Random</h3>
 			<div className="columns">
 				<div className="column has-text-centered">
 					<Icon iconName={'AnalyticsGraphBar'} />
@@ -70,26 +71,18 @@ const IconPreview = () => {
 					<Icon iconName={'AnalyticsGraphBar2'} />
 					<p>AnalyticsGraphBar2</p>
 				</div>
-				{/* <div className="column has-text-centered">
-					<Icon iconName={'CaretRight1'} />
-					<p>CaretRight1</p>
+				<div className="column has-text-centered">
+					<Icon iconName={'BabyTrolley'} />
+					<p>BabyTrolley</p>
 				</div>
 				<div className="column has-text-centered">
-					<Icon iconName={'CaretRight2'} />
-					<p>CaretRight2</p>
+					<Icon iconName={'BabyTrolley1'} />
+					<p>BabyTrolley1</p>
 				</div>
 				<div className="column has-text-centered">
-					<Icon iconName={'CaretUp'} />
-					<p>CaretUp</p>
+					<Icon iconName={'BabyTrolley2'} />
+					<p>BabyTrolley2</p>
 				</div>
-				<div className="column has-text-centered">
-					<Icon iconName={'CaretUp1'} />
-					<p>CaretUp1</p>
-				</div>
-				<div className="column has-text-centered">
-					<Icon iconName={'CaretUp2'} />
-					<p>CaretUp2</p>
-				</div> */}
 			</div>
 		</React.Fragment>
 	);

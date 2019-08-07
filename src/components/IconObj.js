@@ -2,6 +2,9 @@ import React from 'react';
 import AnalyticsGraphBar from '../components/icons/AnalyticsGraphBar';
 import AnalyticsGraphBar1 from '../components/icons/AnalyticsGraphBar1';
 import AnalyticsGraphBar2 from '../components/icons/AnalyticsGraphBar2';
+import BabyTrolley from '../components/icons/BabyTrolley';
+import BabyTrolley1 from '../components/icons/BabyTrolley1';
+import BabyTrolley2 from '../components/icons/BabyTrolley2';
 import CaretDown from '../components/icons/carets/CaretDown';
 import CaretDown1 from '../components/icons/carets/CaretDown1';
 import CaretDown2 from '../components/icons/carets/CaretDown2';
@@ -19,6 +22,9 @@ const IconObj = {
 	AnalyticsGraphBar: <AnalyticsGraphBar />,
 	AnalyticsGraphBar1: <AnalyticsGraphBar1 />,
 	AnalyticsGraphBar2: <AnalyticsGraphBar2 />,
+	BabyTrolley: <BabyTrolley />,
+	BabyTrolley1: <BabyTrolley1 />,
+	BabyTrolley2: <BabyTrolley2 />,
 	CaretDown: <CaretDown />,
 	CaretDown1: <CaretDown1 />,
 	CaretDown2: <CaretDown2 />,

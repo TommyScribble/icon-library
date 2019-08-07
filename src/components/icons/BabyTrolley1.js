@@ -1,19 +1,22 @@
 import React from 'react';
 
-const BabyTrolley1 = props => {
+const BabyTrolley1 = () => {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 24 24"
 			width={24}
 			height={24}
-			{...props}
+			aria-hidden={true}
+			focusable={false}
+			fill="none"
+			stroke="#4d4d4d"
 		>
 			<defs>
 				<style
 					dangerouslySetInnerHTML={{
 						__html:
-							'.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;}',
+							'.a{fill:none;stroke:#4d4d4d;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;}',
 					}}
 				/>
 			</defs>
