@@ -1,8 +1,14 @@
 {
 	"name": "react-icon-library",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"private": false,
 	"description": "A library of SVG icons for use in reactJS projects",
+	"main": "dist/ScribbleIcons.js",
+	"module": "dist/ScribbleIcons.js",
+	"files": [
+		"dist",
+		"README.md"
+	  ],
 	"husky": {
 		"hooks": {
 			"pre-commit": "lint-staged"
@@ -61,7 +67,6 @@
 		"url": "git+https://github.com/TommyScribble/icon-library"
 	},
 	"homepage": "https://github.com/TommyScribble/icon-library#readme",
-	"main": "lib/components/ScribbleIcons.js",
 	"keywords": [
 		"icon",
 		"svg",
