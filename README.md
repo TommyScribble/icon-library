@@ -1,18 +1,58 @@
 # React Icon Library
-A library of icons that can be used as react components  
---- This project is not currently ready for use ---
+--- This project still currently being developed ---  
+This is library of icons that can be used as react components. Just import it in to your project via Yarn or NPM.
 
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
+- [Icons](#icons)
 - [Contributing](#contributing)
 
 ## Installation
---- This will be added to the NPM registery once complete ---
 
-## Usage
-This project is still being developed and is not ready for use yet. When it is I will update the readme and also add a list of icons.
+Install via Yarn 
+```sh
+yarn add react-icon-library
+```
+or NPM
+```sh
+npm install react-icon-library
+```
+Import into the component that you want to add an icon too
+```javascript
+import Icon from 'react-icon-library';
+```
+Then add the component and pass it the iconName prop
+```javascript
+<Icon iconName={iconName} />
+```
+
+## Icons
+
+There are three of every icon. 4px stroke. 1.5px stroke and 1px stroke. So pick the stroke that matches your project.  
+
+The current list of icons include:
+- AnalyticsGraphBar
+- AnalyticsGraphBar1
+- AnalyticsGraphBar2
+- BabyTrolley
+- BabyTrolley1
+- BabyTrolley2
+- Burger
+- Burger1
+- Burger2
+- CaretDown
+- CaretDown1
+- CaretDown2
+- CaretLeft
+- CaretLeft1
+- CaretLeft2
+- CaretRight
+- CaretRight1
+- CaretRight2
+- CaretUp
+- CaretUp1
+- CaretUp2
 
 ## Contributing  
 
