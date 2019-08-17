@@ -84,6 +84,20 @@ const IconPreview = () => {
 					<p>BabyTrolley2</p>
 				</div>
 			</div>
+			<div className="columns">
+				<div className="column has-text-centered">
+					<Icon iconName={'Burger'} />
+					<p>Burger</p>
+				</div>
+				<div className="column has-text-centered">
+					<Icon iconName={'Burger1'} />
+					<p>Burger1</p>
+				</div>
+				<div className="column has-text-centered">
+					<Icon iconName={'Burger2'} />
+					<p>Burger2</p>
+				</div>
+			</div>
 		</React.Fragment>
 	);
 };

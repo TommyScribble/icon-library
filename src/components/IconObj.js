@@ -5,6 +5,9 @@ import AnalyticsGraphBar2 from './icons/AnalyticsGraphBar2';
 import BabyTrolley from './icons/BabyTrolley';
 import BabyTrolley1 from './icons/BabyTrolley1';
 import BabyTrolley2 from './icons/BabyTrolley2';
+import Burger from './icons/Burger';
+import Burger1 from './icons/Burger1';
+import Burger2 from './icons/Burger2';
 import CaretDown from './icons/carets/CaretDown';
 import CaretDown1 from './icons/carets/CaretDown1';
 import CaretDown2 from './icons/carets/CaretDown2';
@@ -25,6 +28,9 @@ const IconObj = {
 	BabyTrolley: <BabyTrolley />,
 	BabyTrolley1: <BabyTrolley1 />,
 	BabyTrolley2: <BabyTrolley2 />,
+	Burger: <Burger />,
+	Burger1: <Burger1 />,
+	Burger2: <Burger2 />,
 	CaretDown: <CaretDown />,
 	CaretDown1: <CaretDown1 />,
 	CaretDown2: <CaretDown2 />,
