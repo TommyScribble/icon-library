@@ -8,7 +8,7 @@ const IconPreview = () => {
 			<div className="columns">
 				<div className="column has-text-centered">
 					<Icon iconName={'CaretDown'} />
-					<p>CaretDown</p>
+					<p>CaretDown Silly name</p>
 				</div>
 				<div className="column has-text-centered">
 					<Icon iconName={'CaretDown1'} />
