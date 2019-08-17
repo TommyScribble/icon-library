@@ -20,6 +20,9 @@ import CaretRight2 from './icons/carets/CaretRight2';
 import CaretUp from './icons/carets/CaretUp';
 import CaretUp1 from './icons/carets/CaretUp1';
 import CaretUp2 from './icons/carets/CaretUp2';
+import Cross from './icons/Cross';
+import Cross1 from './icons/Cross1';
+import Cross2 from './icons/Cross2';
 
 const IconObj = {
 	AnalyticsGraphBar: <AnalyticsGraphBar />,
@@ -43,6 +46,9 @@ const IconObj = {
 	CaretUp: <CaretUp />,
 	CaretUp1: <CaretUp1 />,
 	CaretUp2: <CaretUp2 />,
+	Cross: <Cross />,
+	Cross1: <Cross1 />,
+	Cross2: <Cross2 />,
 };
 
 export default IconObj;
