@@ -1,6 +1,6 @@
 {
 	"name": "react-icon-library",
-	"version": "0.1.22",
+	"version": "0.1.23",
 	"private": false,
 	"description": "A library of SVG icons for use in reactJS projects",
 	"main": "dist/ScribbleIcons.js",
@@ -42,6 +42,10 @@
 	"devDependencies": {
 		"@babel/cli": "^7.5.5",
 		"@babel/core": "^7.5.5",
+		"@types/jest": "^25.2.1",
+		"@types/node": "^13.11.1",
+		"@types/react": "^16.9.34",
+		"@types/react-dom": "^16.9.6",
 		"husky": "^2.7.0",
 		"lint-staged": "^8.2.1",
 		"prettier": "^1.18.2",
@@ -50,7 +54,8 @@
 		"react-scripts": "3.0.1",
 		"stylelint": "^10.1.0",
 		"stylelint-order": "^3.0.0",
-		"stylelint-scss": "^3.8.0"
+		"stylelint-scss": "^3.8.0",
+		"typescript": "^3.8.3"
 	},
 	"lint-staged": {
 		"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
