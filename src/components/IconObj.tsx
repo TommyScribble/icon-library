@@ -16,7 +16,7 @@ import Cross1 from './icons/Cross1';
 import Cross2 from './icons/Cross2';
 
 type Icons = {
-	[icon: string]: JSX.Element;
+	[icon: string]: React.ReactElement;
 };
 
 const IconObj: Icons = {

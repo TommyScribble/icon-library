@@ -1,16 +1,15 @@
 import IconObj from './IconObj';
 
 type Props = {
-	iconName?: string;
+	iconName: string;
 };
 
 const Icon = ({ iconName }: Props) => {
-	if (!iconName) return console.log(`Please add and iconName Prop`);
+	if (!iconName) console.log(`Please add and iconName Prop`);
 	if (!IconObj[iconName])
-		return console.log(
+		console.log(
 			`The is no icon called ${iconName} in this repo. Please refer to the readme`
 		);
-
 	return IconObj[iconName];
 };
 

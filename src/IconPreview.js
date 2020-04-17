@@ -6,15 +6,15 @@ const IconPreview = () => {
 		<>
 			<h3 className="title">Carets</h3>
 			<div className="columns">
-				<div className="column has-text-centered">
+				<div data-testid="CaretUp" className="column has-text-centered">
 					<Icon iconName={'CaretUp'} />
 					<p>CaretUp</p>
 				</div>
-				<div className="column has-text-centered">
+				<div data-testid="CaretUp1" className="column has-text-centered">
 					<Icon iconName={'CaretUp1'} />
 					<p>CaretUp1</p>
 				</div>
-				<div className="column has-text-centered">
+				<div data-testid="CaretUp2" className="column has-text-centered">
 					<Icon iconName={'CaretUp2'} />
 					<p>CaretUp2</p>
 				</div>
