@@ -11,7 +11,7 @@
     ],
     "sourceMap": true,
     "allowJs": true,
-    "jsx": "react",
+    "jsx": "preserve",
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -28,9 +28,6 @@
     "noUnusedParameters": true
   },
   "include": [
-    "./src/components"
-  ],
-  "exclude": [
-    "node_modules"
+    "./src/components/"
   ]
 }

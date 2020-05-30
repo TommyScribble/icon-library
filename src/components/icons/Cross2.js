@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Cross2 = () => {
+const Cross2 = ({ color }) => {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 24 24"
 			width="24"
 			height="24"
-			fill="#4d4d4"
+			fill={color}
 			stroke="none"
 			aria-hidden={true}
 			focusable={false}

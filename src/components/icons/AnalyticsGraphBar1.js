@@ -1,6 +1,7 @@
 import React from 'react';
 
-const AnalyticsGraphBar1 = () => {
+const AnalyticsGraphBar1 = ({ color }) => {
+	const style = `.a{fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;}`;
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -10,13 +11,13 @@ const AnalyticsGraphBar1 = () => {
 			focussable="false"
 			aria-hidden="true"
 			aria-labelledby="AnalyticsGraphBar1"
-			stroke="#4d4d4d"
+			stroke={color}
 		>
 			<title>analytics-graph-bar</title>
 			<defs>
 				<style
 					dangerouslySetInnerHTML={{
-						__html: `.a{fill:none;stroke:"#4d4d4d";stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;}`,
+						__html: style,
 					}}
 				/>
 			</defs>

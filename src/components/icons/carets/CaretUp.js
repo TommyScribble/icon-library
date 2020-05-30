@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CaretUp = () => {
+const CaretUp = ({ color }) => {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -8,7 +8,7 @@ const CaretUp = () => {
 			width="24"
 			height="24"
 			fill="none"
-			stroke="#4d4d4d"
+			stroke={color}
 			aria-hidden={true}
 			focusable={false}
 		>

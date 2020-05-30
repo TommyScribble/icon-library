@@ -21,9 +21,9 @@ Import into the component that you want to add an icon too
 ```javascript
 import Icon from 'react-icon-library';
 ```
-Then add the component and pass it the iconName prop
+Then add the component and pass it the iconName and color props (default colour is #4d4d4d)
 ```javascript
-<Icon iconName={iconName} />
+<Icon iconName={iconName} color={color} />
 ```
 
 ## Icons
@@ -34,12 +34,12 @@ The current list of icons include:
 - AnalyticsGraphBar
 - AnalyticsGraphBar1
 - AnalyticsGraphBar2
-- BabyTrolley
-- BabyTrolley1
-- BabyTrolley2
 - Burger
 - Burger1
 - Burger2
 - CaretUp
 - CaretUp1
 - CaretUp2
+- Cross
+- Cross1
+- Cross2

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AnalyticsGraphBar2 = () => {
+const AnalyticsGraphBar2 = ({ color }) => {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -9,7 +9,7 @@ const AnalyticsGraphBar2 = () => {
 			height={24}
 			aria-hidden={true}
 			focusable={false}
-			fill="#4d4d4d"
+			fill={color}
 			stroke="none"
 		>
 			<title>analytics-graph-bar</title>

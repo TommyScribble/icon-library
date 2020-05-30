@@ -1,6 +1,8 @@
 import React from 'react';
 
-const AnalyticsGraphBar = () => {
+const AnalyticsGraphBar = ({ color }) => {
+	const style = `.cls-1{fill:none;stroke:${color};stroke-linecap:round;stroke-linejoin:round;}`;
+
 	return (
 		<svg
 			id="Light"
@@ -11,15 +13,10 @@ const AnalyticsGraphBar = () => {
 			aria-hidden={true}
 			focusable={false}
 			fill="none"
-			stroke="#4d4d4d"
+			stroke={color}
 		>
 			<defs>
-				<style
-					dangerouslySetInnerHTML={{
-						__html:
-							'.cls-1{fill:none;stroke:#4d4d4d;stroke-linecap:round;stroke-linejoin:round;}',
-					}}
-				/>
+				<style dangerouslySetInnerHTML={{ __html: style }} />
 			</defs>
 			<title>analytics-graph-bar</title>
 			<line className="cls-1" x1="0.5" y1="23.5" x2="23.5" y2="23.5" />
